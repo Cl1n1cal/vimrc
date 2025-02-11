@@ -18,6 +18,7 @@ nnoremap n j
 nnoremap t e
 nnoremap e k
 nnoremap i l
+nnoremap s b
 
 " Jumping 10 lines
 nnoremap <C-n> 10j
