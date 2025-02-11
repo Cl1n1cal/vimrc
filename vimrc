@@ -1,7 +1,7 @@
 " Vimrc file
 " Niceness
 set relativenumber
-set rnu
+set nu rnu
 set autoindent
 
 " Tabs 
@@ -14,11 +14,18 @@ set softtabstop=4
 let leader = " "
 
 " Movement
+" normal
 nnoremap n j
 nnoremap t e
 nnoremap e k
 nnoremap i l
 nnoremap s b
+" visual
+vnoremap n j
+vnoremap t e
+vnoremap e k
+vnoremap i l
+vnoremap s b
 
 " Jumping 10 lines
 nnoremap <C-n> 10j
